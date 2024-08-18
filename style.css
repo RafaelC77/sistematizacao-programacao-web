@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2E8F0;
+    color: #1A202C;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, select, button {
+    font: 400 1rem "Roboto", sans-serif;
+}
+
+header {
+    height: 6rem;
+    padding: 0 2rem;
+    border-bottom: 1px solid #2D3748;
+    display: flex;
+    align-items: center;
+    background:  #171923;
+    position: sticky;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+main > h1 {
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+section {
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+main > h2 {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: #A0AEC0;
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.card > img {
+    max-width: 25rem;
+}
+
+.card > p {
+    text-align: justify;
+}
+
+.cargo > img {
+    max-width: 15rem;
+    border-radius: 2.5px;
+}
+
+.equipe {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cargo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 5px black;
+    padding: 2rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+.contato > h2  {
+    margin-bottom: 2rem;
+}
+
+.contato > p {
+    margin-bottom: 1rem;
+}
